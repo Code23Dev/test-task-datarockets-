@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+	--body-bg: #c5e4e7;
+	--tip-input-bg: #00474b;
+	--tip-input-hover-bg: #a0e7df;
+	--tip-input-color: #ffffff;
+	--tip-input-hover-color: #013534;
+	--input-bg: #ddf1fd;
+	--input-focus-border: #70b7ae;
+	--input-text-color: #013534;
+	--label-color: #606f6f;
+	--cart-bg: #00474b;
+	--cart-main-text: #ffffff;
+	--cart-secondary-text: #89a5a5;
+	--cart-price-text: #22c2aa;
+	--reset-bg: #26c2ad;
+	--reset-color: #005150;
+	--input-focus: #98d3cd;
+	--input-font-size: 19px;
+	--font-regular: 400;
+	--font-semi-bold: 500;
+	--font-bold: 700;
+	--font: "Space Mono", monospace;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--font);
+	font-size: var(--input-font-size);
+}
